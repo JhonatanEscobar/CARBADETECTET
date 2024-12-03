@@ -4,14 +4,27 @@
     <meta charset="UTF-8">
     <title>CARBADETECTET</title>
     <link rel="stylesheet" href="main.css">
+    <!-- Fuente personalizada -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <header>
-        <h1>CARBADETECTET</h1>
+        <nav>
+            <div class="logo">CARBADETECTET</div>
+            <ul class="nav-links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Características</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
         <section class="intro">
+            <h1>Protege tu piel con CARBADETECTET</h1>
             <p>
                 El carcinoma de células basales es el tipo más común de cáncer de piel y puede ser altamente destructivo si no se detecta y trata a tiempo. Afecta a millones de personas en todo el mundo y su incidencia sigue en aumento.
             </p>
@@ -22,9 +35,9 @@
 
         <div class="download-section">
             <div class="arrows">
-                <span class="arrow">↓</span>
+                <i class="fas fa-angle-down"></i>
                 <span class="download-now">¡DESCÁRGALO YA!</span>
-                <span class="arrow">↓</span>
+                <i class="fas fa-angle-down"></i>
             </div>
             <button id="download-button">DESCARGAR</button>
         </div>
@@ -33,10 +46,27 @@
             <img src="I1.png" alt="Imagen 1">
             <img src="I2.png" alt="Imagen 2">
         </div>
+
+        <section class="testimonials">
+            <h2>Testimonios</h2>
+            <div class="testimonial">
+                <p>"CARBADETECTET me ayudó a detectar un problema a tiempo. ¡Es increíble!"</p>
+                <h3>Pancracio Chocovolqueta</h3>
+            </div>
+            <div class="testimonial">
+                <p>"Una herramienta indispensable para el cuidado de la piel."</p>
+                <h3>Deyna Gonzales 2024</h3>
+            </div>
+        </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 CARBADETECTET. Todos los derechos reservados SHWKEPJ2.</p>
+        <p>&copy; 2024 CARBADETECTET. Todos los derechos reservados SHWEPJ2 .</p>
+        <div class="social-media">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
     </footer>
 
     <script src="app.js"></script>
