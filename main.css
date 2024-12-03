@@ -9,6 +9,7 @@ header {
     background-color: #8B0000; /* Rojo oscuro */
     padding: 20px;
     text-align: center;
+    position: relative;
 }
 
 h1 {
@@ -22,8 +23,12 @@ main {
 }
 
 .intro p {
-    font-size: 1.5em;
-    margin-bottom: 50px;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
 }
 
 .download-section {
@@ -52,8 +57,34 @@ main {
     padding: 15px 30px;
     font-size: 1.2em;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 #download-button:hover {
     background-color: #A52A2A; /* Marrón rojizo */
+}
+
+.images-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.images-section img {
+    max-width: 45%;
+    margin: 0 10px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #8B0000; /* Rojo oscuro */
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
 }
